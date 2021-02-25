@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  height: 50vh;
+  background-image: url("/img/index/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+  width: 80%;
+}
+
+.navbar__logo {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  height: 40px;
+  width: auto;
+}
+/*# sourceMappingURL=index.css.map */

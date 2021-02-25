@@ -1,0 +1,19 @@
+.header {
+    height: 50vh;
+    background-image: url('/img/index/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    height: 10vh;
+    width: 80%;
+
+    &__logo {
+        transform: rotate(180deg);
+        height: 40px;
+        width: auto;
+    }
+}
