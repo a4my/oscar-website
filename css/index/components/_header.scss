@@ -4,16 +4,68 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    &__overlay {
+        position: absolute;
+        background-color: #207ecc;
+        height: 50vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.4;
+    }
 }
 
 .navbar {
     display: flex;
-    height: 10vh;
+    height: 15vh;
     width: 80%;
+    margin: 0 auto;
 
-    &__logo {
-        transform: rotate(180deg);
-        height: 40px;
-        width: auto;
+    &__logo-container {
+        flex: 1;
+        color: $secondColor;
+        padding-top: 10px;
+        z-index: 2;
+
+        & h4 {
+            font-size: 22px;
+            text-transform: uppercase;
+            color: $primaryColor;
+        }
+
+        & p {
+            font-size: 18px;
+        }
+    }
+
+    &__links-container {
+        flex: 1;
+        z-index: 2;
+    }
+
+    &__nav-links {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        flex: 2;
+        padding-top: 20px;
+
+        &--nav-link {
+            color: $secondColor;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $primaryColor;
+            }
+
+            &--active {
+                border: 3px solid $primaryColor;
+                color: $primaryColor;
+            }
+        }
     }
 }
