@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAOA;;;;EAIE;AAEF,YAAY;AAEX,AACC,OADM,CACN,MAAM,CAAC;EACN,OAAO,EAAE,CAAC;CACV",
+    "mappings": "AASC,AACC,OADM,CACN,MAAM,CAAC;EACN,OAAO,EAAE,CAAC;CACV",
     "sources": [
         "noscript.scss",
         "libs/_vars.scss",
