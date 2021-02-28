@@ -2895,6 +2895,9 @@ body.index #main {
     padding: 0;
     border: 0;
   }
+  #myicon {
+    font-size: 50px;
+  }
   /* Nav */
   #navButton .toggle:before {
     top: 8px;
